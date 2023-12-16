@@ -4,6 +4,63 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .header {
     display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+    margin-left: 156px;
+}
+
+.logo span {
+    color: #4D5AE5;
+}
+
+.navigation-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+}
+
+.address {
+    margin-right: 156px;
+}
+
+.address-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.address-items li a {
+    text-decoration: none;
 }
