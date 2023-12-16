@@ -1,0 +1,9 @@
+body {
+    background-color: #ffffff;
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+}
