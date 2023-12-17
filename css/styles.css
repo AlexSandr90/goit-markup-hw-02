@@ -4,7 +4,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.wrapper {
+.wrapper,
+.main {
     display: flex;
     flex-direction: column;
     max-width: 1440px;
@@ -84,4 +85,108 @@ body {
     line-height: 24px;
     letter-spacing: 0.32px;
     color: #434455;
+}
+
+.superman-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 600px;
+    background-color: #2E2F42;
+}
+
+.superman-text {
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+    width: 496px;
+}
+
+.superman-btn {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    padding: 16px 32px;
+}
+
+.main-principles-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 350px;
+    background-color: #ffffff;
+}
+
+.main-principles {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1128px;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-principles_item {
+    width: 264px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    color: #434455;
+}
+
+.main-principles_item h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.main-principles_item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.team-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 732px;
+    background-color: #F4F4FD;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1128px;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.team li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 4px 4px;
+    background: #ffffff;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
