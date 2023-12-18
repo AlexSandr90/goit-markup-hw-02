@@ -134,7 +134,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     color: #FFFFFF;
     border-radius: 4px;
@@ -145,17 +145,24 @@ body {
     cursor: pointer;
 }
 
-.superman-btn:hover, .superman-btn:focus {
+.superman-btn:hover,
+.superman-btn:focus {
     background-color: #404BBF;
 }
 
 .main-principles-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 1440px;
     height: 350px;
     background-color: #ffffff;
+}
+
+.main-principles-head {
+    color: #2e2f42;
+    margin-bottom: 48px;
 }
 
 .main-principles {
@@ -174,7 +181,7 @@ body {
     color: #434455;
 }
 
-.main-principles_item h3 {
+.main-principles-item-header {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -182,7 +189,7 @@ body {
     letter-spacing: 0.4px;
 }
 
-.main-principles_item p {
+.main-principles-item-text {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
