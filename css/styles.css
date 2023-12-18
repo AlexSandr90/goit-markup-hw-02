@@ -187,6 +187,7 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    color: #2e2f42;
 }
 
 .main-principles-item-text {
@@ -208,13 +209,15 @@ body {
 
 .team-section_header {
     margin-bottom: 72px;
+    text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .team {
@@ -227,7 +230,7 @@ body {
     margin: 0;
 }
 
-.team li {
+.team-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,7 +241,7 @@ body {
     font-style: normal;
 }
 
-.team li h3 {
+.team-item-header {
     color: #2E2F42;
     text-align: center;
     font-size: 20px;
@@ -249,7 +252,7 @@ body {
     margin-bottom: 8px;
 }
 
-.team li p {
+.team-item-text {
     color: #434455;
     text-align: center;
     font-size: 16px;
