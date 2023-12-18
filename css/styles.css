@@ -1,8 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 body {
     background-color: #ffffff;
     color: #434455;
@@ -12,32 +7,20 @@ body {
 
 .wrapper,
 .main {
-    display: flex;
-    flex-direction: column;
-    max-width: 1440px;
-    width: 100%;
     margin: 0 auto;
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
-    width: 1128px;
     margin: 0 auto;
-    height: 72px;
-    align-items: center;
 }
 
 .header-navigation {
-    display: flex;
-    width: 452px;
     justify-content: space-between;
 }
 
 
 .header-logo {
-    display: flex;
-    align-items: center;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -55,10 +38,8 @@ body {
 }
 
 .header-menu {
-    display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: 260px;
 }
 
 .header-menu-link {
@@ -79,11 +60,8 @@ body {
 
 
 .address-items {
-    display: flex;
     list-style-type: none;
-    width: 345px;
     justify-content: space-between;
-    padding-left: 0;
 
 }
 
@@ -107,12 +85,7 @@ body {
 }
 
 .superman-section {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 1440px;
-    height: 600px;
     background-color: #2E2F42;
 }
 
@@ -125,7 +98,6 @@ body {
     line-height: 1.07;
     letter-spacing: 1.12px;
     color: #FFFFFF;
-    width: 496px;
     margin-bottom: 48px;
 }
 
@@ -137,11 +109,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.64px;
     color: #FFFFFF;
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
-    padding: 16px 32px;
     cursor: pointer;
 }
 
@@ -151,12 +120,7 @@ body {
 }
 
 .main-principles-section {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 1440px;
-    height: 350px;
     background-color: #ffffff;
 }
 
@@ -166,16 +130,11 @@ body {
 }
 
 .main-principles {
-    display: flex;
     justify-content: space-between;
-    max-width: 1128px;
-    width: 100%;
     list-style-type: none;
-    padding: 0;
 }
 
 .main-principles_item {
-    width: 264px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     color: #434455;
@@ -198,12 +157,7 @@ body {
 }
 
 .team-section {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 1440px;
-    height: 732px;
     background-color: #F4F4FD;
 }
 
@@ -221,22 +175,13 @@ body {
 }
 
 .team {
-    display: flex;
     justify-content: space-between;
-    max-width: 1128px;
-    width: 100%;
     list-style-type: none;
-    padding: 0;
     margin: 0;
 }
 
 .team-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 0px 0px 4px 4px;
     background: #ffffff;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     font-family: Roboto, sans-serif;
     font-style: normal;
 }
@@ -263,13 +208,8 @@ body {
 }
 
 .portfolio-section {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 1440px;
     background-color: #ffffff;
-    padding-top: 120px;
     font-family: Roboto, sans-serif;
     font-style: normal;
 }
@@ -287,22 +227,12 @@ body {
 }
 
 .portfolio {
-    display: flex;
-    max-width: 1128px;
-    width: 100%;
     flex-wrap: wrap;
-    padding: 0;
     justify-content: space-between;
     list-style-type: none;
 }
 
 .portfolio-item {
-    display: flex;
-    width: 360px;
-    height: 420px;
-    padding-bottom: 32px;
-    flex-direction: column;
-    align-items: flex-start;
     border: 1px solid #E7E9FC;
     background: #ffffff;
     margin-bottom: 48px;
@@ -333,14 +263,9 @@ body {
 
 .footer {
     background-color: #2E2F42;
-    padding-top: 101px;
-    padding-left: 156px;
-    padding-bottom: 100px;
 }
 
 .footer-logo {
-    display: flex;
-    align-items: center;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -365,7 +290,6 @@ body {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-    width: 264px;
 }
 
 .footer-text {
