@@ -270,10 +270,20 @@ body {
     width: 1440px;
     background-color: #ffffff;
     padding-top: 120px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
 }
 
-.portfolio-section h2 {
+.portfolio-section-header {
     margin-bottom: 72px;
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+
 }
 
 .portfolio {
@@ -286,7 +296,7 @@ body {
     list-style-type: none;
 }
 
-.portfolio li {
+.portfolio-item {
     display: flex;
     width: 360px;
     height: 420px;
@@ -300,11 +310,11 @@ body {
     font-style: normal;
 }
 
-.portfolio li img {
+.portfolio-item-img {
     margin-bottom: 32px;
 }
 
-.portfolio li h3 {
+.portfolio-item-header {
     margin-left: 16px;
     color: #2E2F42;
     font-size: 20px;
@@ -314,8 +324,11 @@ body {
     margin-bottom: 8px;
 }
 
-.portfolio li p {
+.portfolio-item-text {
     margin-left: 16px;
+    font-style: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer {
@@ -340,11 +353,11 @@ body {
     margin-bottom: 18px;
 }
 
-.footer-logo span {
+.footer-logo-span {
     color: #F4F4FD;
 }
 
-.footer p {
+.footer-text {
     color: #F4F4FD;
     font-family: Roboto;
     font-size: 16px;
@@ -353,4 +366,10 @@ body {
     line-height: 24px;
     letter-spacing: 0.32px;
     width: 264px;
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
