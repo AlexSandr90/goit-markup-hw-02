@@ -95,10 +95,15 @@ body {
     line-height: 24px;
 }
 
-.address-items li a {
+.address-link {
     text-decoration: none;
     letter-spacing: 0.32px;
     color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
 }
 
 .superman-section {
